@@ -124,7 +124,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/889f1bb444c61658ea1ce.jpg"
+        thumb_name = "NaN"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -161,7 +161,7 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Watch On YouTube 🎬",
+                                text="Watch On YouTube",
                                 url=f"{url}")
 
                         ]
@@ -169,14 +169,14 @@ async def play(_, message: Message):
                 )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/889f1bb444c61658ea1ce.jpg"
+            thumb_name = "NaN"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="Watch On YouTube 🎬",
+                                text="Watch On YouTube",
                                 url=f"https://youtube.com")
 
                         ]
@@ -223,7 +223,7 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Watch On YouTube 🎬",
+                            text="Watch On YouTube",
                             url=f"{url}")
 
                     ]
@@ -246,7 +246,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {} via YouTube Music 😜".format(
+        caption="▶️ **Playing** here the song requested by {} via YouTube 😜".format(
         message.from_user.mention()
         ),
     )
