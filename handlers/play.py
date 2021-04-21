@@ -4,7 +4,6 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, Voice
 
 from callsmusic import callsmusic, queues
-import wget
 from os import path
 import requests
 import aiohttp
