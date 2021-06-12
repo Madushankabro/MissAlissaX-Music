@@ -93,7 +93,6 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 async def play(_, message: Message):
 
     lel = await message.reply("🔄 **Processing...**")
-    url = get_url(message)
     
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -132,7 +131,7 @@ async def play(_, message: Message):
         await lel.edit(
             f"<i>Hey {user.first_name}, assistant userbot is not in this chat, ask admin to send /play command for first time to add it.</i>")
         return
-
+    
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
     url = get_url(message)
 
@@ -144,7 +143,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/a58d286859538f27dd48b.png"
+        thumb_name = "https://telegra.ph/file/caeb50039026a746e7252.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -167,7 +166,7 @@ async def play(_, message: Message):
             if not path.isfile(path.join("downloads", file_name)) else file_name
         )
 
-    if url:
+    elif url:
         try:
             results = YoutubeSearch(url, max_results=1).to_dict()
             # print results
