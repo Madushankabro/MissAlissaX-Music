@@ -132,7 +132,41 @@ async def play(_, message: Message):
         await lel.edit(
             f"<i>Hey {user.first_name}, assistant userbot is not in this chat, ask admin to send /play command for first time to add it.</i>")
         return
-    
+
+    audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
+    url = get_url(message)
+
+    if audio:
+        if round(audio.duration / 60) > DURATION_LIMIT:
+            raise DurationLimitError(
+                f"❌ Videos longer than {DURATION_LIMIT} minutes aren't allowed to play!"
+            )
+
+        file_name = get_file_name(audio)
+        title = file_name
+        thumb_name = "https://telegra.ph/file/a58d286859538f27dd48b.png"
+        thumbnail = thumb_name
+        duration = round(audio.duration / 60)
+        views = "Locally added"
+
+        keyboard = InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        text="Channel",
+                        url="https://t.me/Infinity_BOTs")
+                   
+                ]
+            ]
+        )
+        
+        requested_by = message.from_user.first_name
+        await generate_cover(requested_by, title, views, duration, thumbnail)  
+        file_path = await converter.convert(
+            (await message.reply_to_message.download(file_name))
+            if not path.isfile(path.join("downloads", file_name)) else file_name
+        )
+
     if url:
         try:
             results = YoutubeSearch(url, max_results=1).to_dict()
