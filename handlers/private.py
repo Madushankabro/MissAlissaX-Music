@@ -25,26 +25,23 @@ Add me to your group and play music freely!**
                         "🛠 Original Source Code 🛠", url="https://github.com/Infinity-Bots/GroupMusicPlayerBot"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/epusthakalaya_bots"
+                        "🌟Review Us🌟", url="https://t.me/tlgrmcbot?start=missalissamusicrobot"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/epusthakalayabotsupport"
+                        "👥 Main Group 👥", url="https://t.me/epusthakalayabotsupport"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/epusthakalaya_bots"
+                        "🔊 Bots Channel 🔊", url="https://t.me/epusthakalaya_bots"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/epusthakalayabotsupport"
+                        "🎧 Music Group 🎧", url="https://t.me/GlobalMusic_1"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/epusthakalaya_bots"
+                        "🎼 Music Channel 🎼", url="https://t.me/Global_Music_GM"
                     )
-                ],[ 
-                    InlineKeyboardButton(
-                        "🌟Review Us🌟", url="https://t.me/JEGroupMusicPlayerBot?startgroup=true"
-                    )]
+                ]
             ]
         ),
      disable_web_page_preview=True
