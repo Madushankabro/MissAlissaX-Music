@@ -39,3 +39,6 @@ Use [Repl Link](https://replit.com/@SpEcHiDe/GenerateStringSession) to get pyrog
 - [Original Repo](https://github.com/suprojects/CallsMusic)
 - [Infinity BOTs](https://t.me/Infinity_BOTs)
 - [Source Code](https://github.com/ImJanindu/GroupMusicBot)
+
+## AlissaX Music Bot Developer
+- [ᴋᴀsᴜ ʙʀᴏ 🇱🇰](https://t.me/kasu_bro)
