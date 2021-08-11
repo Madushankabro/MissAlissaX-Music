@@ -41,7 +41,10 @@ Add me to your group and play music freely!**
                     InlineKeyboardButton(
                         "🎼 Music Channel 🎼", url="https://t.me/Global_Music_GM"
                     )
-                ]
+                ],[
+                InlineKeyboardButton(
+                        "♻️ AlissaX Music Player ♻️", url="https://t.me/AlissaXPlayer"
+                    )]
             ]
         ),
      disable_web_page_preview=True
