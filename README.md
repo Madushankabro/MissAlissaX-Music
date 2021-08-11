@@ -32,7 +32,7 @@
 
 Use [Repl Link](https://replit.com/@SpEcHiDe/GenerateStringSession) to get pyrogram string session
 
-### Credits
+## Credits
 - [ImJanindu](https://github.com/ImJanindu): Dev
 - [InukaASiTH](https://github.com/InukaAsith): Dev
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
@@ -40,5 +40,5 @@ Use [Repl Link](https://replit.com/@SpEcHiDe/GenerateStringSession) to get pyrog
 - [Infinity BOTs](https://t.me/Infinity_BOTs)
 - [Source Code](https://github.com/ImJanindu/GroupMusicBot)
 
-## AlissaX Music Bot Developer
+### AlissaX Music Bot Developer
 - [ᴋᴀsᴜ ʙʀᴏ 🇱🇰](https://t.me/kasu_bro)
