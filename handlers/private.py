@@ -19,7 +19,7 @@ Add me to your group and play music freely!**
             [
                 [
                 InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/MissAlissaMusicRoBot?startgroup=true"
+                        "⚜️ Add To Your Group ⚜️", url="https://t.me/MissAlissaMusicRoBot?startgroup=true"
                     )],[
                     InlineKeyboardButton(
                         "🛠 Original Source Code 🛠", url="https://github.com/Infinity-Bots/GroupMusicPlayerBot"
