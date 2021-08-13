@@ -147,7 +147,6 @@ async def play(_, message: Message):
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
-        bot by = "𝐄 𝐏𝐔𝐒𝐓𝐇𝐀𝐊𝐀𝐋𝐀𝐘𝐀 𝐁𝐎𝐓𝐬 ™"
 
         keyboard = InlineKeyboardMarkup(
             [
