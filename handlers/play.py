@@ -100,7 +100,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Mizuki"
+        user.first_name = "Alissa Music"
     usar = user
     wew = usar.id
     try:
@@ -147,6 +147,7 @@ async def play(_, message: Message):
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
+        bot by = "𝐄 𝐏𝐔𝐒𝐓𝐇𝐀𝐊𝐀𝐋𝐀𝐘𝐀 𝐁𝐎𝐓𝐬 ™"
 
         keyboard = InlineKeyboardMarkup(
             [
