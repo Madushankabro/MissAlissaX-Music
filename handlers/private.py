@@ -7,11 +7,11 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgQAAxkBAAEFis5hE3LDP4fABr-1KMv5kttKvey5pQACBxAAAqbxcR6x7JT7tldV0B4E")
+    await message.reply_sticker("CAACAgUAAxkBAAIDS2EY0n06gcJHEIMrkP9C3fJzZCwFAALhAwACxubIVJZAwFT2WmH2IAQ")
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎵
 
-I can play music in your group's voice call. Developed by [ᴋᴀsᴜ ʙʀᴏ 🇱🇰](https://t.me/kasu_bro).
+I can play music in your group's voice call. Developed by [𝐄 𝐏𝐔𝐒𝐓𝐇𝐀𝐊𝐀𝐋𝐀𝐘𝐀 𝐁𝐎𝐓𝐬 ™ 🇱🇰](https://t.me/epusthakalaya_bots).
 
 Add me to your group and play music freely!**
         """,
@@ -19,7 +19,7 @@ Add me to your group and play music freely!**
             [
                 [
                 InlineKeyboardButton(
-                        "⚜️ Add To Your Group ⚜️", url="https://t.me/MissAlissaMusicRoBot?startgroup=true"
+                        "⚜️ Add Me To Your Group ⚜️", url="https://t.me/MissAlissaMusicRoBot?startgroup=true"
                     )],[
                     InlineKeyboardButton(
                         "🛠 Original Source Code 🛠", url="https://github.com/Infinity-Bots/GroupMusicPlayerBot"
@@ -36,7 +36,7 @@ Add me to your group and play music freely!**
                     )
                 ],[
                 InlineKeyboardButton(
-                        "♻️ AlissaX Music Player ♻️", url="https://t.me/AlissaXPlayer"
+                        "♻️ My Assistant ♻️", url="https://t.me/AlissaXPlayer"
                     )]
             ]
         ),
