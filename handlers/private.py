@@ -35,13 +35,6 @@ Add me to your group and play music freely!**
                         "🔊 Bots Channel 🔊", url="https://t.me/epusthakalaya_bots"
                     )
                 ],[
-                    InlineKeyboardButton(
-                        "🎧 Music Group 🎧", url="https://t.me/GlobalMusic_1"
-                    ),
-                    InlineKeyboardButton(
-                        "🎼 Music Channel 🎼", url="https://t.me/Global_Music_GM"
-                    )
-                ],[
                 InlineKeyboardButton(
                         "♻️ AlissaX Music Player ♻️", url="https://t.me/AlissaXPlayer"
                     )]
